@@ -1,3 +1,5 @@
+На данный момент сделана лишь основная чать, без повышенной сложности
+
 # Test
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
