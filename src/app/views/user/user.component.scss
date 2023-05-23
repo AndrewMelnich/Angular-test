@@ -1,0 +1,44 @@
+li{
+  list-style: none;
+}
+
+.user{
+  position: relative;
+}
+
+.user__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.user__item-avatar{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.user__item-value{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-back{
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+
+.btn-change{
+  position: absolute;
+  bottom: -25px;
+  right: 50%;
+  transform: translate(+50%);
+}
+
+

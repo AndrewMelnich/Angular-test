@@ -1,0 +1,11 @@
+<ul class="users__list">
+  <li class="users__item" *ngFor="let user of users">
+    <a class="users__item-link" [routerLink]="['user', user.id]"  >
+      {{user.first_name}} {{user.last_name}}
+    </a>
+    <button class="btn__delete-user" (click)="deleteUser(user.id)">X</button>
+ </li>
+ <button class="btn__update-users" (click)="getAllUsers()" >Обновить список</button>
+</ul>
+
+

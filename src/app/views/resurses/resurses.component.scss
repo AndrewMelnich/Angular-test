@@ -1,0 +1,22 @@
+.resurses__list{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.resurses__item{
+  list-style: none;
+  width: 30%;
+  margin: 30px;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.resurses__item-name{
+  margin-bottom: 5px;
+}

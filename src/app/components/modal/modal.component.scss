@@ -1,0 +1,22 @@
+.modal-overlay{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  background: #000;
+  opacity: 0.6;
+  z-index: 100;
+}
+
+.modal--change{
+  position: absolute;
+  z-index: 100;
+  top: 40px;
+  padding: 30px;
+  right: 50%;
+  transform: translate(50%);
+  width: 500px;
+  background-color: white;
+}

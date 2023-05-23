@@ -1,0 +1,52 @@
+<app-modal class="modal" *ngIf="ModalService.isVisible$.value">
+  <app-change-user (onChanged)="changedUser($event)"></app-change-user>
+</app-modal>
+
+<div class="user">
+
+  <li class="user__item">
+    <img [src]="user.avatar" alt="" class="user__item-avatar">
+    <div class="user__item-value">
+      <div class="user__item-value__title">
+        Имя:
+      </div>
+      <h3 class="user__item-value__first-name">
+        {{ user.first_name }}
+      </h3>
+    </div>
+    <div class="user__item-value">
+      <div class="user__item-value__title">
+        Фамилия:
+      </div>
+      <h3 class="user__item-value__first-name">
+        {{ user.last_name }}
+      </h3>
+    </div>
+    <div class="user__item-value">
+      <div class="user__item-value__title">
+        email:
+      </div>
+      <h3 class="user__item-value__first-name">
+        {{ user.email }}
+      </h3>
+    </div>
+    <div class="user__item-value">
+      <div class="user__item-value__title">
+        id:
+      </div>
+      <h3 class="user__item-value__first-name">
+        {{  user.id}}
+      </h3>
+    </div>
+  </li>
+
+  <button (click)="goBack()" class="btn-back">Назад</button>
+  <button (click)="ModalService.open()" class="btn-change">Изменить</button>
+
+</div>
+
+<!-- <div class="user__item-value">Фамилия: {{ user.last_name }}</div>
+<div class="user__item-value">email: {{user.email}}</div>
+<div class="user__item-value">id: {{ user.id}}</div> -->
+
+

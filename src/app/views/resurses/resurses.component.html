@@ -1,0 +1,15 @@
+<ul class="resurses__list">
+  <li class="resurses__item"
+      [ngStyle]="{'background-color': resurse.color}"
+      *ngFor="let resurse of this.resurses"
+    >
+    <div class="resurses__item-id">id: {{resurse.id}}</div>
+    <div class="resurses__item-name">name: {{resurse.name}}</div>
+    <div class="resurses__item-year">year: {{resurse.year}}</div>
+    <div
+      class="resurses__item-color"
+    >
+      color: {{resurse.color}}</div>
+    <div class="resurses__item-value">pantone value: {{resurse.pantone_value}}</div>
+ </li>
+</ul>

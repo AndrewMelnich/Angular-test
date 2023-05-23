@@ -1,0 +1,19 @@
+<form class="form__change" [formGroup]="form" (ngSubmit)="submit()">
+  <input type="image" class="form__change-avatar"[src]="avatar" formControlName="avatar"/>
+  <ul class="form__change-list">
+    <li class="form__change__item">
+      <h4 class="form__change__item-title">First Name:</h4>
+      <input type="text" class="form__change__item-value" [value]="first_name" formControlName="first_name"/>
+    </li>
+    <li class="form__change__item">
+      <h4 class="form__change__item-title">Last Name:</h4>
+      <input type="text" class="form__change__item-value" [value]="last_name" formControlName="last_name"/>
+    </li>
+    <li class="form__change__item">
+      <h4 class="form__change__item-title">Your email:</h4>
+      <input type="text" class="form__change__item-value" [value]="email" formControlName="email"/>
+    </li>
+  </ul>
+
+  <button type="submit">Сохранить изменения</button>
+</form>
