@@ -1,5 +1,5 @@
 <div class="wrapper">
-  <app-navigation></app-navigation>
+  <app-navigation  *ngIf="AuthService.isLoggedIn$.value"></app-navigation>
 
   <router-outlet ></router-outlet>
 </div>

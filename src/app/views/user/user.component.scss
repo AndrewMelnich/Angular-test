@@ -41,4 +41,23 @@ li{
   transform: translate(+50%);
 }
 
+.btn{
+  text-decoration: none;
+  padding: 10px 10px;
+	margin: 10px auto;
+	justify-content: center;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+  text-align: center;
+}
+.btn:hover{
+	background: #6d44b8;
+}
 

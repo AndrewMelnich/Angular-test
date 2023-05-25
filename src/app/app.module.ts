@@ -12,6 +12,7 @@ import { ChangeUserComponent } from './components/change-user/change-user.compon
 import { LoginComponent } from './views/login/login.component';
 import { ResursesComponent } from './views/resurses/resurses.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { SignUpComponent } from './views/sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
     LoginComponent,
     ResursesComponent,
     NavigationComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,

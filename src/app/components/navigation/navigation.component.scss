@@ -9,6 +9,8 @@
   align-items: center;
   box-sizing: border-box;
   margin-bottom: 20px;
+  	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+
 }
 
 .navigation__link, a{
@@ -16,7 +18,33 @@
   text-decoration: none;
   color: white;
   :hover{
-    color: red;
+    color: #6d44b8;
   }
+}
+
+.btn--exit{
+  position: absolute;
+  left: 10px;
+}
+
+
+.btn{
+  text-decoration: none;
+  padding: 10px 10px;
+	margin: 10px auto;
+	justify-content: center;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+  text-align: center;
+}
+.btn:hover{
+	background: #6d44b8;
 }
 

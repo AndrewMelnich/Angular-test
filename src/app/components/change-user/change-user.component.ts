@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { ModalService } from '../../services/modal/modal.service';
 import { UserComponent } from '../../views/user/user.component';
 import { UsersService } from '../../services/users.services';

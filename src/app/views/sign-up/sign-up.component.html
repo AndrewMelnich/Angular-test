@@ -1,0 +1,15 @@
+<div class="authorization__wrapper">
+  <div class="authorization__display">
+    <div class="signup">
+      <form [formGroup]="formAuth" (ngSubmit)="registration()">
+        <label for="chk" aria-hidden="true">Sign up</label>
+        <input type="email" name="email" placeholder="Email" [value]="email" required=""  formControlName="email">
+        <input type="password" name="pswd" placeholder="Password" [value]="password"  required="" formControlName="password">
+        <button class="auth__btn" type="submit" >Sign up</button>
+        <a class="auth__btn btn-signUp" routerLink="/login">Login</a>
+      </form>
+    </div>
+  </div>
+</div>
+
+
